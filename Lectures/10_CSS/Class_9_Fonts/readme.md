@@ -1,0 +1,2 @@
+- 1) Google Fonts 
+- 2) Content Delivery Network (CDN)

@@ -1,0 +1,59 @@
+@media(max-width:600px){
+    /* Mobile */
+    body{
+        background-color: black;
+    }
+    div::after
+{
+    color: whitesmoke;
+    content: "Mobile Compactible";
+}
+}
+
+@media (min-width:600px) {
+    body{
+        background-color: tomato;
+
+    }
+    div::after
+    {
+        color: whitesmoke;
+        content: "Potrait Tablet and big phones";
+    }
+    
+
+}
+@media (min-width:768px) {
+    body{
+        background-color: blue;
+    }
+    div::after{
+        color: whitesmoke;
+        content: "Tablets";
+    }
+}
+
+@media (min-width:992px) {
+    body{
+        background-color: orange;
+    }
+    div::after{
+        color: black;
+        content: "Laptop";
+        font-size: x-large;
+    }
+}
+
+
+@media (min-width:1200px) {
+    body{
+        background-color: orchid;
+    }
+    div::after{
+        color: black;
+        content: "Very Large Screen";
+        font-size: x-large;
+    }
+}
+
+

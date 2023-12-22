@@ -1,0 +1,19 @@
+body{
+    background-color: white;
+}
+
+main p {
+    color: red;
+}
+
+.df{
+    color: aqua;
+}
+
+h1 > p 
+{
+    color: blue;
+}
+section + p {
+    color: yellow;
+}

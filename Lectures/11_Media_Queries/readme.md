@@ -1,0 +1,6 @@
+- 1) Website on desktop/ Mobile
+- 2) Book My show on different size of device 
+- 3) Always Assume you are codimg for phone 
+- 4) On Mobile (Less heavy images )
+- 5) Handel Nav Bar sepreatly for small screen (Side bar) #MobileFirst
+- 6) View port (Property of the browser)

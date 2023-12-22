@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        .a:hover:hover
+        {
+            background-color: black;
+            color: whitesmoke;
+        }
+        .b:focus{
+            color: white;
+            background-color: brown;
+            font-size: 25px;
+        }
+        .c{
+            padding-top: 100px;
+            padding-left: 100px;
+        }
+        /* a:hover{
+            color: pink;
+        }
+        a:active
+        {
+            color: orange;
+        } */
+        /* a:visited{
+            color: green;
+        } */
+        /* a:nth-child(odd){
+            background-color: yellow;
+        } */
+
+
+        p::first-line{
+            color: violet;
+        }
+        p::after{
+            content: "-Sujeet Amberkar";
+            color: aqua;
+        }
+        p::before{
+            content: "-Manali ";
+            color: aqua;
+        }
+        p::selection{
+            color: aliceblue;
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+<p class="a">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, esse.
+</p>
+
+<input type="text" class="b">
+<hr>
+<div class="c">
+    <a href="https://www.google.com/" >Google</a>
+    <a href="https://www.google.com/" >Google</a>
+
+</div>
+
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo perferendis nisi laboriosam, ullam molestias tempore ipsam saepe quae, incidunt deleniti ipsa quaerat. Repellat, natus molestias? Sapiente nobis nam temporibus animi, aliquid cupiditate atque voluptatum debitis quasi quisquam adipisci quae quidem amet eum ad veniam laboriosam vitae dolores recusandae officiis facilis.</p>
+</body>
+</html>

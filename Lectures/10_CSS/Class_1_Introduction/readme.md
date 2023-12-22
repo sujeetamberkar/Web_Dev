@@ -1,0 +1,2 @@
+- 1) Beautify the website 
+- 2) Cascading Styles Sheet 

@@ -1,0 +1,9 @@
+- 1) To handel all the exception 
+- 2) What would happen when you hover over a area
+- 3) You visited a link, new list
+- 4) Hover is used mostly on button or anchor 
+- 5) Input Focus (To attend attention ) (Input button)
+- 6) Hover,active,vsisted
+- 7) First-child, nth Child
+- 8) Sudo element :: (Before and after) 
+- 9) Sudo Selection

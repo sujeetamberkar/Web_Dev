@@ -1,0 +1,2 @@
+- 1) When you want to give space from within Cell Padding 
+- 2) When you want to give space from outside Margin 

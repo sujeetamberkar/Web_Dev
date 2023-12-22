@@ -1,0 +1,2 @@
+- 1) When you need to apply CSS to more than one page
+- 2) Make a common CSS file for all pages 

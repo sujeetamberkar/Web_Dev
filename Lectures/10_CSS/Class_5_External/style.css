@@ -1,0 +1,15 @@
+.heading{
+    font-size: 50 px;
+    color: white ;
+}
+body{
+    background-color: blueviolet;
+}
+.endNote{
+    font-size: 23 px;
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    border: 1px dotted;
+    
+}

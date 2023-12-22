@@ -1,0 +1,2 @@
+- 1) Use Hex Code (All browsers have different meaining of red)
+- 2) Bakcground image, colour, size, repeat
