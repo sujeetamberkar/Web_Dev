@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow
+    </title>
+
+
+    <!-- 
+    Z Index when 2 things are at same position the higher Z Index will be shown 
+    -->
+    <style>
+        .temp{
+            border: solid red;
+            height: 300px;
+            width: 300px;
+            overflow:auto;
+        }
+
+        .one{
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            position: absolute;
+            top: 1px;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <p class = "temp">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, nisi?
+    </p>
+    <div class="one"></div>
+    <div class="two"></div>
+</body>
+</html>

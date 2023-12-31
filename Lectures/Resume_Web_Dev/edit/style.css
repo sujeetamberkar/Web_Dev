@@ -1,0 +1,38 @@
+.aside{
+    background-color: blue;
+    float: left;
+    width: 36%;
+    height: max-content;
+}
+
+.profile{
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 25%;
+}
+.icon-bullet-list {
+    list-style-type: none; /* Removes default bullets */
+    padding: 0; /* Removes default padding */
+}
+
+.icon-bullet-list li {
+    margin-bottom: 10px; /* Adds space between list items */
+    display: flex; /* Aligns image and text nicely */
+    align-items: center; /* Vertically centers the text with the image */
+}
+
+.icon-bullet-list li img {
+    width: 24px; /* Adjust the size of the image */
+    height: 24px; /* Adjust the height to keep the aspect ratio */
+    margin-right: 10px; /* Adds space between the image and text */
+}
+.right{
+    margin-left: 40%;
+
+}
+.right header{
+    text-align: center;
+    color: black;
+
+}

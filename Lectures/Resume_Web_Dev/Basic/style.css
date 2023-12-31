@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header h1 {
+    color: #0275d8; /* A pleasant blue */
+    text-align: center;
+}
+
+.aside {
+    background-color: #fff; /* White background for the sidebar */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.profile {
+    display: block;
+    margin: 0 auto; /* Centers the image */
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    border-radius: 50%; /* Makes the image circular */
+    border: 3px solid #0275d8; /* Adds a blue border */
+}
+
+.contact_head, .skills_head, .education_head {
+    color: #0275d8;
+    margin-bottom: 0.5em;
+}
+
+.icon-bullet-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-bullet-list li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+a {
+    color: #0275d8;
+    text-decoration: none; /* Removes underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Add other styles as needed */

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .cont{
+            display: flex;
+            height: 300px;
+            border: 1px solid black;
+            justify-content: center;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+        }
+        
+        .box1{
+            background-color: red;
+            order: 100;
+        }
+        .box2{
+            background-color: yellow;
+            order: 5;
+            flex-grow: 4;
+            flex-shrink: 2;
+             
+        }
+        .box3{
+            background-color: green;
+            order: 2;
+            align-self: center;
+        }
+
+    </style>
+</head>
+<body>
+    <!--Flex-->
+    <!-- First You Need to make a parent before working on Flex-Box -->
+
+    <div class="cont">
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Part 3</title>
+</head>
+<body>
+
+
+    <!--Normal HTML-->
+    <h1>Hello Bacho- PW Skills </h1>
+    <p id = "js"></p>
+
+    <button onclick="hey()"  id = "jss">Click Me</button>
+    <script>
+
+        // Two Parameters, 
+        // 1) What event to observe
+        // 2) Which function to call when the event happens
+        // document.addEventListener("click",hello);
+        document.addEventListener("mouseenter",hello);
+
+        function hello()
+        {
+            document.getElementById("js").innerText="Namaste Bacho";
+        }
+
+        function hey()
+        {
+            document.getElementById("jss").innerText="Why did you hit me";
+            document.getElementById("jss").style.color="red";
+            document.getElementById("jss").style.backgroundColor="black";
+            document.getElementById("jss").style.padding="16px";
+            document.getElementById("jss").style.border="2px solid green";
+        }
+        // Rsources for list of event lsiteners 
+        // https://developer.mozilla.org/en-US/docs/Web/Events
+
+    </script>
+</body>
+</html>

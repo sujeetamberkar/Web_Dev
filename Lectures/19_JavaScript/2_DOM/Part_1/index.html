@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+
+    <p id = "one" > Namaste <span>Sir</span></p>
+
+    <ul>
+        <li class="tech">One</li>
+        <li class="tech">Two</li>
+        <li class="tech">Three</li>
+
+    </ul>
+    <!--Tag Name-->
+    <h4>Hey</h4>
+    <h4>Namaste</h4>
+    <h4>Hola</h4>
+
+
+    <!--Query Selector -->
+    <h2>Hello</h2>
+    <h2 class="classs">Hola</h2>
+    <h2 id = "ids">Hey</h2>
+
+    <script>
+        let a = document.getElementById("one")
+        // console.log(a.innerText);
+
+
+        let b = document.getElementsByClassName("tech");
+        // console.log(b[2].innerText);
+        // b[2].innerText="Edited by JS";
+
+
+        let c = document.getElementsByTagName("h4");
+        // c[2].innerText="JS bola";
+        // c[2].style.color="red";
+        // console.log(c[0].innerText);
+
+        // Query Selector 
+
+        // let var4= document.querySelector("h2")
+        let var4= document.querySelector(".classs")
+        // let var4 = document.querySelector("#ids")
+        console.log(var4.innerText);
+
+        // Apply a class on a item
+        var4.className="hello";
+
+        // Apply a class list on a item
+        var4.classList = "hello helo hola";
+
+
+        // SET Atribute
+        var4.setAttribute("title","js");
+    </script>
+</body>
+</html>
